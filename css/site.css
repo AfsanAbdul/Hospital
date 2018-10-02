@@ -1,0 +1,450 @@
+header .head-first {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+header .navbar {
+    border-radius: 0;
+    margin-top: 50px;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
+
+header a span ,
+header .carousel-caption span{
+    color:#13bfb1;
+}
+
+header a:hover {
+    text-decoration:none;
+}
+
+header i {
+    color:rgba(255,255,255,.5);
+}
+
+i.fa.fa-bars , .navbar-brand span {
+    color:#777;
+}
+
+header a:hover i {
+    color:white;
+}
+
+header a.navbar-brand {
+    padding: 23px;
+    margin-top: 7px;
+}
+
+header ul.nav.navbar-nav li>a:hover {
+    color: #13bfb1;
+}
+
+nav ul>li ,
+nav .navbar-brand {
+    padding: 15px 0;
+}
+
+nav li>a:not(.last) {
+    border-right: 1px solid rgba(0,0,0,.05);
+}
+
+nav.navbar.navbar-default {
+    background-color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.border-top li:first-child>a:after {
+    opacity: 1;
+}
+
+.border-top li>a:after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -18px;
+    opacity: 0;
+    background: #13bfb1;
+    -webkit-transition:all ease-out 1s;
+    -moz-transition:all ease-out 1s;
+    -o-transition:all ease-out 1s;
+    transition: all ease-out 1s;
+}
+
+.border-top li:hover>a:after {
+    opacity: 1;
+}
+
+.border-top li:hover a{
+    color:#13bfb1;
+    transition: all .5s
+}
+
+header .carousel-caption {
+    position: absolute;
+    right: 40%;
+    bottom: 25%;
+    left: 4%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: 45px;
+}
+
+header .carousel-caption .small {
+    font-size: 25px ;
+}
+
+header .head-button {
+    text-align: center;
+    padding-top:20px;
+}
+
+header a.btn.btn-primary {
+    background-color: #13bfb1;
+    outline: none;
+    border:none;
+    padding: 12px 30px;
+    transition: all .5s
+}
+
+header .head-button a:hover {
+    transition: all .5s;
+    background-color:rgba(19, 191, 177, .5); 
+}
+
+                /*section1*/
+
+section#part1 {
+    padding-top: 40px;
+    color:#565656;
+}
+
+#part1 .row {
+    text-align: center;
+}
+
+
+#part1 .part1-alternatives{
+    margin-top: 60px;
+}
+
+#part1 h2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #13bfb1;
+    position: absolute;
+    left: 21%;
+    top: 40%;
+}
+
+#part1 h2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #13bfb1;
+    position: absolute;
+    right:21%;
+    top:40%;
+}
+
+#part1 p {
+    padding-top:15px;
+    font-size: 19px; 
+    color:#a8a8a8;
+}
+
+.part1-alternatives i {
+    color:#13bfb1;
+    font-size: 6em;
+}
+
+.part1-alternatives a {
+    text-decoration: none;
+    color:#626262;;
+    text-align: center;
+}
+
+.part1-alternatives a:hover {
+    text-decoration: none;
+    color:#626262;
+}
+
+.content h6 {
+    font-size: 13px;
+}
+
+.timekeep {
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+section#part2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: #ecf7f6;
+}
+
+section#part2  p,h2,h3,h6, 
+.data-content p,h4 ,
+.doctor-infor p {
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+.wrapper-timetable {
+    background-color: white;
+    padding: 10px 20px 5px 20px;
+}
+
+section#part2 h6 {
+    font-size: 13px;
+    line-height: 1.5
+}
+
+section#part2 label {
+    background-color: #f8f8f8;
+    padding: 5px 11px;
+    font-size: 13px;
+    border-radius: 4px;
+    color: #444444;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.wrapper-timetable span {
+    display: block;
+    font-size: 22px;
+    color:#13bfb1;
+}
+
+section#part2 span sup {
+    font-size: 65%;
+    top: -0.3em;
+}
+
+.wrapper-timetable hr {
+    margin: 13px 0;
+}
+
+.wrapper-address {
+    background-color:#13bfb1;
+    padding: 10px 0 20px 0;
+}
+
+.wrapper-address h3 ,li>span , li>a {
+    color:white;
+}
+
+.wrapper-address h3 {
+    padding:0 20px 15px 20px;
+}
+
+.wrapper-address li>a , li>span {
+    padding: 0 0 0 10px;
+}
+
+.wrapper-address li>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper-address i {
+    font-size: 18px;
+    color:#2e2e2e;
+    line-height: 2;
+}
+
+.address-content ul>li {
+    padding: 8px 0 8px 10px;
+}
+
+.address-content ul>li:after {
+    content: "";
+    width: 60px;
+    display: block;
+    border: 1px solid rgba(255,255,255,.2);
+    position: absolute;
+    left: 15px;
+}
+
+                        /*sectionpart3*/
+section#part3 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+section#part3 h6 {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+section#part3 h2 {
+    color: #13bfb1;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.data-content {
+    padding: 20px 0;
+}
+
+.data-content .col-md-3 {
+    text-align: center;
+}
+
+.data-content i {
+    font-size: 3em;
+    color:#13bfb1;
+    line-height: 2;
+}
+
+.data-content p {
+    font-size: 13px;
+}
+
+                    /*part4*/
+.appoint {
+    background-color:#13bfb1;
+    padding: 20px 0; 
+}
+
+.appoint .container {
+    padding: 20px 60px 20px 30px;
+}
+
+.appoint h2 {
+    font-size: 23px;
+    color:white;
+    padding-left: 80px;
+    margin: 20px 0 0 0;
+}
+
+.appoint .input-group {
+    margin-top: 20px;
+}
+
+section#part1 .form-control ,
+section#part4 .form-control {
+    height: 36px;
+}
+
+.form-group .btn {
+    padding: 7px 12px;
+    outline: none;
+}
+
+.user-data {
+    background-color: white;
+    padding: 60px 0 0 0;
+}
+
+.user-data img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.doctor-infor .name {
+    font-size:18px;
+}
+
+.doctor-infor h5 {
+    color: #a8a8a8;
+}
+
+.doctor-infor hr {
+    border-top: 1px solid #13bfb1;
+    margin-left: 0;
+    width: 50%;
+}
+
+.links .btn {
+    padding: 0;
+    width: 45px;
+    height: 40px;
+    border-radius:0;
+}
+
+.links a:hover {
+    color:#13bfb1;
+    background-color: white;
+    text-decoration: none;
+    transition: all .5s
+}
+
+.links i {
+    padding: 12px;
+}
+
+.img-hearbeat {
+    padding: 70px;
+}
+
+.img-hearbeat img {
+    height: 130px;
+    object-fit:cover;
+}
+
+footer {
+    background-color: #545454; 
+}
+
+.foot-inner {
+    padding: 40px 0 50px 0;
+}
+
+.foot-inner span {
+    color:#cdcdcd;
+}
+
+.foot-inner a {
+    color:#13bfb1;
+}
+
+.foot-inner a:hover {
+    text-decoration: none;
+}
+
+.foot-inner ul>li>a {
+    color:#65666C;
+    transition: all .5s
+}
+
+.foot-inner ul>li>a:hover {
+    color:white;
+}
+
+.icon-up a>i {
+    font-size: 2em;
+    color:white;
+}
+
+.icon-button  {
+    background-color:rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 99;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+}
+
+

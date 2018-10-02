@@ -1,0 +1,158 @@
+@media only screen  and (max-width: 992px) {
+    header .carousel-caption {
+        bottom: 15%;
+    }
+
+    #part1 h2:before {
+        left: 13%;
+    }
+
+    #part1 h2:after {
+        right: 13%;
+    }
+
+    .wrapper-address {
+        padding: 10px 0 3px 0;
+    }
+
+    .links .btn {
+        width: 35px
+    }
+
+    .links i {
+        padding: 12px 10px;
+    }
+
+    .img-hearbeat {
+        padding: 70px 0;
+    }
+
+    .appoint h2 {
+        padding-left: 0
+    }
+
+}
+
+@media only screen   and (max-width: 768px) {
+    header a.navbar-brand {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    header .head-first {
+        display: none !important;
+    }
+
+    header .navbar {
+        margin-top: 0 !important;
+    }
+
+    header .col-md-3.col-md-offset-3.col-sm-4.col-xs-12 {
+        padding-left: 25px;
+    }
+
+    header .carousel-caption {
+        bottom: 8%;
+        font-size: 30px;
+    }
+
+    header .carousel-caption .small {
+        font-size: 17px;
+    }
+
+    .appoint .container {
+        padding: 0 15px;
+    }
+
+    section#part1 h2 {
+        font-size: 22px;
+    }
+
+    #part1 h2:before {
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 17px solid #13bfb1;
+        left: 16%;
+    }
+
+    #part1 h2:after {
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 17px solid #13bfb1;
+        right: 16%;
+    }
+
+    #part1 .col-md-3.col-sm-6.col-xs-12 {
+        margin-bottom: 10px;
+    }
+
+    #part4 .col-md-6.col-sm-6.col-xs-12,
+    .icon-part.text-center {
+        margin-top: 15px;
+    }
+
+    .data-content .col-md-9.col-sm-9.col-xs-9 {
+        padding-left: 0;
+    }
+
+    .user-data img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen   and (max-width: 580px) {
+    header .head-first,
+    header .head-button {
+        padding: 0;
+    }
+
+    header a.btn.btn-primary {
+        padding: 7px 7px;
+        transition: all .5s;
+        font-size: 12px;
+    }
+
+    header .carousel-caption .small {
+        font-size: 15px;
+    }
+
+    header ol {
+        margin-bottom: -7px;
+    }
+
+    .carousel-indicators {
+        right: 0;
+        width: 4%;
+        left: 90%;
+        margin: 0;
+    }
+
+    #part1 h2:after {
+        right: 8%;
+    }
+
+    #part1 h2:before {
+        left: 8%;
+    }
+
+    #part1 p {
+        font-size: 15px;
+    }
+
+    section#part1 h2 {
+        font-size: 20px;
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    header .carousel-caption {
+        bottom: 2%;
+        font-size: 20px;
+        left: 0;
+        right: 30%;
+    }
+}
